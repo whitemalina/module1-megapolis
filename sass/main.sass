@@ -1,0 +1,537 @@
+*
+    margin: 0
+    padding: 0
+    font-family: montserrat
+    &:focus
+        outline: none
+    scroll-behavior: smooth
+@font-face
+    font-family: 'Montserrat'
+    font-style: normal
+    font-weight: 400
+    src: url("../fonts/Montserrat-Regular.ttf")
+@font-face
+    font-family: 'Montserrat-Light'
+    font-style: normal
+    font-weight: 400
+    src: url("../fonts/Montserrat-Light.ttf")
+@font-face
+    font-family: 'Montserrat-Bold'
+    font-style: normal
+    font-weight: 700
+    src: url("../fonts/Montserrat-Bold.ttf")
+@font-face
+    font-family: 'Montserrat-Regular'
+    font-style: normal
+    font-weight: 700
+    src: url("../fonts/Montserrat-Regular.ttf")
+.container
+  width: 1110px
+  padding-right: 15px
+  padding-left: 15px
+  margin: 0 auto
+nav
+    width: 100%
+    position: absolute
+    margin-top: 20px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    .container
+        display: flex
+        align-items: center
+        justify-content: space-between
+    .navbar-collapse
+        display: flex
+        align-items: center
+        justify-content: space-between
+    .nav-item
+        font-size: 15px
+        padding-top: .9rem
+        padding-bottom: .9rem
+        padding-left: 20px
+        padding-right: 20px
+        list-style: none
+        a
+            text-decoration: none
+            color: black
+            font-weight: 400
+.firstscreen
+    height: 100vh
+    display: flex
+    justify-content: flex-start
+    align-items: center
+.navbar-brand
+    img
+        position: relative
+        max-width: 65px
+    a
+        text-decoration: none
+        color: #6b76ff
+        font-size: 20px
+        &:nth-last-child(1)
+            margin-left: 15px
+        
+        font-family: Montserrat-Bold
+.firstscreen-info
+    width: 50%
+    h1
+        color: #6b76ff
+        font-family: Montserrat-Light
+        font-weight: 200
+        line-height: 1.2;
+        font-size: 40px;
+        background: linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%);
+        //color: #6b76ff
+        text-transform: uppercase;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text
+    h2
+        margin-top: 15px
+        background: linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%);
+        //color: #6b76ff
+        text-transform: uppercase;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text
+        line-height: 1.2;
+        font-family: Montserrat-Bold
+        font-size: 40px;
+    h3
+        color: #6b76ff
+        font-family: Montserrat-Regular
+        font-weight: 300
+        line-height: 1.2;
+        font-size: 20px;
+        margin-top: 50px
+        background: linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%);
+        color: #6b76ff
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text
+        background-attachment: fixed;
+
+.overlay
+    position: absolute
+    width: 50%
+    top: 0
+    left: 0
+    bottom: 0
+    opacity: .08
+    background: linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%)
+.picture-overlay
+    position: absolute
+    width: 50%
+    transform: translateX(100%)
+    top: 0
+    left: 0
+    bottom: 0
+    background-image: linear-gradient(to top, rgb(107, 117, 255), rgba(89, 183, 255, 0.4)), url("../img/08323156.jpg");
+    clip-path: polygon(-1px 56%, 99.95% 119px, 100% 100%, 0px 100%);
+    background-repeat: no-repeat
+    background-size: contain
+    background-attachment: fixed
+
+.btn
+  position: relative
+  width: 200px
+  font-size: 16px
+  font-weight: 600
+  color: #fff
+  cursor: pointer
+  margin: 18px
+  height: 62px
+  
+  text-align: center
+  border: none
+  background-size: 300% 100%
+  text-shadow: 0 1px 0 #312c2c
+  border-radius: 50px
+  moz-transition: all .4s ease-in-out
+  -o-transition: all .4s ease-in-out
+  -webkit-transition: all .4s ease-in-out
+  transition: all .4s ease-in-out
+
+  &:hover
+    background-position: 100% 0
+    moz-transition: all .4s ease-in-out
+    -o-transition: all .4s ease-in-out
+    -webkit-transition: all .4s ease-in-out
+    transition: all .4s ease-in-out
+.button-gradient
+  margin-top: 50px
+  background-image: linear-gradient(to right, #6b75ff, #59b7ff, #59b7ff, #59b7ff);
+  box-shadow: 0 4px 15px 0 rgb(107, 117, 255)
+
+
+.section
+    padding: 7em 0;
+    position: relative;
+.principles
+
+.media-block
+    padding: 20px
+    i
+        background: linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%);
+        //color: #6b76ff;
+        -webkit-background-clip: text;
+        text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        background-clip: text
+        font-size: 60px;
+
+
+.bookingDescription
+    background: #f8f9fa !important;
+    .container
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap;
+    
+        
+.media-block
+        flex: 0 0 25%;
+        max-width: 30%;
+        align-self: stretch
+        transition: all .8s
+        display: flex
+        flex-direction: column
+        justify-content: center
+        p
+            transition: all .8s
+            margin-top: 16px
+            font-family: Montserrat-Bold
+            color: rgba(0, 0, 0, 0.678);
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 16px
+        span
+            transition: all .8s
+            color: #999999;
+        i
+            transition: all .8s
+
+        // &:hover
+        //     background-color: #6b76ff
+        //     transition: all .8s
+        //     border-radius: 15px
+        //     color: white
+        //     p
+        //         color: white
+        //     span
+        //         color: white
+        //         transition: all .8s
+        //     i
+        //         transition: all .8s
+        //         background: linear-gradient(45deg, #ffffff 0%, #ffffff 0%, #ffffff 100%);
+        //         //color: #6b76ff;
+        //         -webkit-background-clip: text;
+        //         text-fill-color: transparent;
+        //         -webkit-text-fill-color: transparent;
+        //         background-clip: text
+        //         font-size: 60px;
+
+.companyTrust
+    .container
+        display: flex
+        justify-content: space-between
+.companyTrust-media-block
+    width: 100%
+    padding-left: 2rem
+    
+.imageblock
+    background-image: url(../img/im-196106.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 75% 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+.media-start
+    font-size: 1.5rem
+    h2
+        font-family: Montserrat-Bold
+    span
+        font-family: Montserrat-Light
+.companyTrust-blocks
+    
+    flex: 0 0 50%;
+    //max-width: 50%;
+    flex-wrap: wrap
+    display: flex
+    justify-content: space-between !important
+    align-items: center !important
+
+.companyTrust-block
+    flex: 0 0 40%;
+    // padding-top: 1.5rem !important;
+    padding: 1rem
+    pl
+    background-color: #f8f9fa 
+    //background-color: #0080ff 
+    height: 200px
+    // width: 20%
+    margin: 10px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    i
+        background: linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%);
+        //color: #6b76ff;
+        -webkit-background-clip: text;
+        text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        background-clip: text
+        font-size: 60px;
+    strong
+        font-size: 2rem
+    span
+        text-align: center
+        margin-top: 10px
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.7);
+        
+
+.searchSection
+    background: #f8f9fa !important;
+
+    
+
+.searchwrap
+    padding: 4em 0;
+    box-shadow: 100
+    .container
+        transition: all 0.4s
+        background-color: #fff
+        padding: 40px
+        span
+            font-size: 25px;
+            //color: #fff;
+            font-weight: 500
+            font-size: 30px;
+            background: linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%);
+            //color: #6b76ff
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text
+        &:hover
+            box-shadow: 0px 7px 15px -5px rgba(0, 0, 0, 0.07);
+.search
+    display: flex
+    justify-content: space-between
+    form
+        display: flex
+        justify-content: space-between
+        input
+            border: none
+            border-radius: 5px
+            background-color: #f6f6f8 
+            height: 50px
+            margin: 5px
+            padding-left: 5px
+    .btn
+        height: 50px
+        width: 150px    
+        margin: 0
+        margin-left: 15px
+
+.bg
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200px
+.promoList
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    align-items: center
+.promo
+.container
+.promo-in
+    flex: 0 0 20%   ;
+    height: 560px
+    transition: all .2s
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    margin-left: 20px
+    margin-top: 50px
+    background-color: white
+    &:hover
+        box-shadow: 0px 7px 15px -5px rgba(0, 0, 0, 0.07);
+.promotext
+    padding: 24px   
+.promotionSection
+    background: #f8f9fa !important;
+    h2
+        font-family: Montserrat-Regular
+    p
+        margin-top: 10px
+        color: #999999;
+.promobg-1
+    background-image: linear-gradient(to top, rgb(107, 117, 255), rgba(89, 183, 255, 0.4)), url("../img/promotions/promotion1.jpg");
+    background-repeat: no-repeat
+    background-size: cover
+
+.promobg-2
+    background-image: linear-gradient(to top, rgb(107, 117, 255), rgba(89, 183, 255, 0.4)), url("../img/promotions/promotion2.jpg");
+    background-repeat: no-repeat
+    background-size: cover
+
+.promobg-3
+    background-image: linear-gradient(to top, rgb(107, 117, 255), rgba(89, 183, 255, 0.4)), url("../img/promotions/promotion3.jpg");
+    background-repeat: no-repeat
+    background-size: cover
+
+.promobg-4
+    background-image: linear-gradient(to top, rgb(107, 117, 255), rgba(89, 183, 255, 0.4)), url("../img/promotions/promotion4.jpg");
+    background-repeat: no-repeat
+    background-size: cover
+
+
+.closepromotion
+    background-color: #6b75ff
+    .container
+        h1
+            color: white
+            font-family: Montserrat-Light
+            font-size: 40px
+        p
+            font-size: 16px;
+            font-family: Montserrat-Regular
+            margin-top: 20px
+            color: white
+            text-align: center
+        display: flex
+        justify-content: center
+        flex-direction: column
+        align-items: center
+.subscribe-form 
+    margin-top: 30px
+    display: flex
+    justify-content: center
+    align-items: center
+    .form-group 
+        input 
+            background: white !important;
+            border: 1px solid transparent;
+            color: rgba(0, 0, 0, 0.7) !important;
+            font-size: 16px;
+            width: 300px
+            border-radius: 5px 0px 0px 5px;
+            height: 52px !important;
+            background: white !important;
+            padding-left: 5px
+    
+// .form-control 
+//     height: 52px !important;
+//     background: #fff !important;
+//     color: #000000 !important;
+//     font-size: 18px;
+//     border-radius: 5px;
+//     -webkit-box-shadow: none !important;
+//     box-shadow: none !important;]
+// .subscribe-form .form-group 
+//     position: relative;
+//     margin-bottom: 0;
+//     -webkit-border-radius: 0;
+//     -moz-border-radius: 0;
+//     -ms-border-radius: 0;
+//     border-radius: 0;
+.subscribe-form .form-group .submit 
+    color: #fff !important;
+    height: 54px !important;
+    width: 120px
+    background: #3847ff !important;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 16px;
+.footer
+    font-size: 16px;
+    background: #222831;
+    padding: 7em 0;
+.footer-nav
+    display: flex
+.footer-item
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    color: white
+    font-family: Montserrat-Light
+    font-weight: 100 !important
+    p
+        font-size: 30px
+        margin-bottom: 15px
+    span
+        color: rgba(255, 255, 255, 0.7);
+.footer-linklist
+    margin-left: 15px
+    list-style: none
+    li
+        margin-top: 15px
+        a
+            text-decoration: none
+            color: rgba(255, 255, 255, 0.7);
+.footer-copyr
+    display: flex
+    justify-content: center
+    align-items: center
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 100px
+// animations
+@keyframes fadeInUp
+  from
+    transform: translate3d(0, 40px, 0)
+
+  to
+    transform: translate3d(0, 0, 0)
+    opacity: 1
+
+@-webkit-keyframes fadeInUp
+  from
+    transform: translate3d(0, 40px, 0)
+
+  to
+    transform: translate3d(0, 0, 0)
+    opacity: 1
+
+.animated
+  animation-duration: 1s
+  animation-fill-mode: both
+  -webkit-animation-duration: 1s
+  -webkit-animation-fill-mode: both
+
+.animatedFadeInUp
+  opacity: 0
+
+.fadeInUp
+  opacity: 0
+  animation-name: fadeInUp
+  -webkit-animation-name: fadeInUp
+
+.promotionUpText
+    padding-bottom: 1rem !important;
+    margin-bottom: 3rem !important;
+    display: flex;
+    font-family: Montserrat-Bold
+    font-size: 1.5rem
+    justify-content: center
+    flex-wrap: wrap;
+
+// adaptation
+
+// @media (min-width: 1200px)
+//     .container
+//         max-width: 1140px;
+// @media (min-width: 992px)
+//     .container
+//         max-width: 960px
+// @media (min-width: 768px)
+//     .container
+//         max-width: 720px;
+// @media (min-width: 576px)
+//     .container
+//         max-width: 540px;
